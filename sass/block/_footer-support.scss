@@ -1,0 +1,35 @@
+.footer-support {
+  padding-bottom: 64px;
+}
+
+.footer-support__list {
+  @include list-unstyled;
+  display: flex;
+  justify-content: space-between
+}
+
+.footer-support__list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-support__list-item__link {
+  text-decoration: none;
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  color: #2d2641;
+
+}
+
+.first {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 80px;
+  letter-spacing: 1.5px;
+  color: #837d88;
+}

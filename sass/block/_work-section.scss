@@ -1,0 +1,38 @@
+.work-section {
+  position: relative;
+  background-color: #2d2641;
+  margin-top: 158px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.work-section__heading {
+  width: 440px;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.777778px;
+  color: #ffffff;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.work-section__btn {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 12px 18px;
+}
+
+.work-section__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

@@ -1,0 +1,39 @@
+.site-nav {
+  display: flex;
+}
+
+.site-nav__list {
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+}
+
+.site-nav__list-item {
+  &:not(:last-child) {
+    margin-right: 33px;
+  }
+}
+
+.site-nav__list-item__link {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #837d88;
+  text-align: end;
+  text-decoration: none;
+}
+
+.site-nav__list-item__btn {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #2c2830;
+  background-color: #fff;
+  padding: 13px 28px;
+}
